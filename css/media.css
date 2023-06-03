@@ -1,0 +1,117 @@
+/* Устройства X-Small (портретные телефоны, менее 576 пикселей) */
+@media (max-width: 575.98px) {
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .first-section-textblock * {
+    text-align: center;
+  }
+
+  .first-section {
+    background: #ffb20e;
+  }
+
+  .addres-form-input {
+    width: 100%;
+  }
+
+  .adress-form-buttons {
+    gap: 0px;
+  }
+}
+
+/* Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и выше)*/
+@media (min-width: 576px) {
+  .wrapper {
+    max-width: 540px;
+  }
+
+  .first-section-textblock * {
+    text-align: center;
+  }
+
+  .first-section {
+    background: #ffb20e;
+  }
+
+  .addres-form-input {
+    width: 100%;
+  }
+  .adress-form-buttons {
+    gap: 0px;
+  }
+}
+
+/* Устройства Medium (планшеты, 768 пикселей и выше) */
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+  .first-section-textblock * {
+    text-align: center;
+  }
+
+  .first-section {
+    background: #ffb20e;
+  }
+
+  .addres-form-input {
+    width: 100%;
+  }
+}
+
+/* Устройства Large (настольные компьютеры, 992 пикселей и выше) */
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 960px;
+  }
+
+  .first-section-textblock * {
+    text-align: start;
+  }
+
+  .first-section {
+    background: url(/img/first-section-bg-img.png), #ffb20e;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+
+  .addres-form-input {
+    width: 100%;
+  }
+}
+
+/* Устройства X-Large (большие настольные компьютеры, 1200 пикселей и выше) */
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+
+  .first-section {
+    background: url(/img/first-section-bg-img.png), #ffb20e;
+    background-repeat: no-repeat;
+    background-position: 95% 100%;
+  }
+
+  .addres-form-input {
+    width: 60%;
+  }
+}
+
+/* Устройства XX-Large (большие настольные компьютеры, 1400 пикселей и выше) */
+@media (min-width: 1400px) {
+  .wrapper {
+    max-width: 1320px;
+  }
+
+  .first-section {
+    background: url(/img/first-section-bg-img.png), #ffb20e;
+    background-repeat: no-repeat;
+    background-position: 90% 100%;
+  }
+
+  .addres-form-input {
+    width: 69%;
+  }
+}
